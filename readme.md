@@ -1,6 +1,14 @@
 # Quantum Simulator
 This is a simple quantum computer simulator written as a submission to accompany my application to the Quantum Open Source Foundation's Quantum Computing Mentorship program.
-
+The output is both text like this:
+```
+Result of 1024 Shots
+     0000 : 260 , 25.390625 %
+     0010 : 249 , 24.31640625 %
+     1100 : 263 , 25.68359375 %
+     1110 : 252 , 24.609375 %
+```
+As well as a graphical representation as shown below:
 
 ## Language and Dependencies
 This program is written in Python 3. The following dependencies must be installed to run this simulator:
