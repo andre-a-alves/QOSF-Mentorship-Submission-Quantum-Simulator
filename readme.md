@@ -9,6 +9,7 @@ Result of 1024 Shots
      1110 : 252 , 24.609375 %
 ```
 As well as a graphical representation as shown below:
+![Image of Output](https://github.com/andre-a-alves/QOSF-Mentorship-Submission-Quantum-Simulator/blob/master/images/output.png)
 
 ## Language and Dependencies
 This program is written in Python 3. The following dependencies must be installed to run this simulator:
