@@ -26,7 +26,11 @@ class Psi:
         results = self._get_counts(num_shots)
         title = "Result of " + str(num_shots) + " Shots"
         Psi._print_counts(results, title, num_shots)
+        # Comment the following line to suppress plotting the result
         Psi._plot_counts(results, title)
+
+    def print_state(self):
+        print(self.state)
 
     def _verify(self, circuit):
         for operator in circuit:
